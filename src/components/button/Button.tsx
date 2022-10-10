@@ -11,7 +11,7 @@ type ButtonProps = {
 };
 
 const common =
-	'h-12 px-4 py-2 rounded-[3px] font-medium text-base focus:ring-4 ring-offset-1 ring-button-primary-default transition-background duration-300 ease-in-out shadow-button border border-transparent relative disabled:bg-button-disabled disabled:border-transparent';
+	'h-9 px-4 py-2 rounded-[3px] font-medium text-base focus:ring-2 ring-offset-1 ring-button-primary-default transition-background duration-300 ease-in-out shadow-button border border-transparent relative disabled:bg-button-disabled disabled:border-transparent flex items-center justify-center';
 
 const variants = {
 	primary: `${common} bg-button-primary-default text-white hover:bg-button-primary-hover active:bg-button-primary-pressed`,

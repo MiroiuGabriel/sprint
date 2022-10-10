@@ -22,6 +22,7 @@ module.exports = {
 			},
 			boxShadow: {
 				button: '0px 1px 2px rgba(0, 0, 0, 0.25)',
+				navbar: '0px 1px 2px rgba(0, 0, 0, 0.25)',
 			},
 		},
 	},
