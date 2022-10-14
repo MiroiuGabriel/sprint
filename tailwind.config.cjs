@@ -24,6 +24,9 @@ module.exports = {
 				button: '0px 1px 2px rgba(0, 0, 0, 0.25)',
 				navbar: '0px 1px 2px rgba(0, 0, 0, 0.25)',
 			},
+			borderRadius: {
+				bt: '0.1875rem',
+			},
 		},
 	},
 	plugins: [require('@tailwindcss/forms')],

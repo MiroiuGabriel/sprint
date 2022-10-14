@@ -1,5 +1,3 @@
-import { useState, useRef, useEffect } from 'react';
-
 type EditableInputProps = {
 	value: string;
 	onChange: (text: string) => void;
@@ -29,7 +27,7 @@ export const EditableInput: React.FC<EditableInputProps> = ({
 				maxWidth,
 			}}
 			placeholder={placeholder}
-			className={`${className} text-xl outline-button-primary-default p-1`}
+			className={`${className} text-xl p-1 bg-transparent transition-background duration-300 ease-in-out focus:ring-2 ring-offset-1 outline-none border-0 !ring-button-primary-default rounded-bt`}
 		/>
 	);
 };
